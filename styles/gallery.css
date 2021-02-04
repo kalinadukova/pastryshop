@@ -1,0 +1,15 @@
+#main .container{
+    margin: 5em;
+    float: left;
+    height: 20em;
+    width: 20em;
+    overflow: hidden;
+}
+
+#main img{
+    height: 20em;
+}
+
+#main{
+    margin: 2em;
+}

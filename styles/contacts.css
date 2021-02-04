@@ -1,0 +1,41 @@
+#main h3{
+    font-size: 3em;
+    /* font-family: Andale Mono, monospace; */
+    font-family: 'Fraunces', serif;
+    color:   #563a43;
+    text-align: center;
+}
+
+#main p{
+    font-size: 1em;
+    /* font-family: Andale Mono, monospace; */
+    font-family: 'Fraunces', serif;
+    color: #563a43;
+}
+
+#main i{
+    font-size: 2em;
+    color:   #563a43;
+    margin: 0.5em;
+}
+
+
+#main fieldset{
+    display: inline-block;
+    width: 20em;
+}
+
+#main .leftContainer{
+    width: 50vw;
+    text-align: center;
+}
+
+#main .leftContainer, #main iframe{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main{
+    padding: 3em;
+}
+

@@ -1,0 +1,31 @@
+#main h3{
+    font-size: 3em;
+    /* font-family: Andale Mono, monospace; */
+    font-family: 'Fraunces', serif;
+    color:   #563a43;
+    text-align: center;
+}
+
+body p{
+    font-size: 1em;
+    /* font-family: Andale Mono, monospace; */
+    font-family: 'Fraunces', serif;
+    color:   #563a43;
+}
+
+body img{
+    float: right;
+    height: 30em;
+}
+
+#main h4{
+    font-size: 2em;
+    /* font-family: Andale Mono, monospace; */
+    font-family: 'Fraunces', serif;
+    color:   #563a43;
+    text-align: center;
+}
+
+#main{
+    padding: 3em;
+}
