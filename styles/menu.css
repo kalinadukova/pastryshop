@@ -96,4 +96,28 @@ ul.firstUl > li::after{
     border-bottom: none;
   }
 
+.categoriesContainer, .products, .welcomeToMenu{
+  color: #563a43;
+  margin: 3em;
+  font-family: 'Fraunces', serif;
+}
 
+.products img{
+  height: 25em;
+  float: left;
+}
+
+.products p{
+  float: right;
+  margin: 2em;
+  font-family: 'Fraunces', serif;
+}
+
+.title{
+  font-weight: bold;
+}
+
+#main{
+  display: flex;
+  margin-bottom: 2.8em;
+}
