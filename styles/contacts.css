@@ -1,6 +1,5 @@
 #main h3{
     font-size: 3em;
-    /* font-family: Andale Mono, monospace; */
     font-family: 'Fraunces', serif;
     color:   #563a43;
     text-align: center;
@@ -8,7 +7,6 @@
 
 #main p{
     font-size: 1em;
-    /* font-family: Andale Mono, monospace; */
     font-family: 'Fraunces', serif;
     color: #563a43;
 }

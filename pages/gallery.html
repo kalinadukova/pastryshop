@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="../styles/homepage.css">
     <link rel="stylesheet" href="../styles/gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 <body>
     <header>
@@ -24,15 +30,18 @@
         <div class="clearfix"></div>
         </header>
             <div id="main">
-            
-                <div class="container"><img id="cafe" src="../images/cafe-1872888_1920.jpg" alt="cafe"></div>
-                <div class="container"><img id="cafe" src="../images/cafe-3537801_1280.jpg" alt="cafe"></div>
-                <div class="container"><img id="cafe" src="../images/cafe-768771_1280.jpg" alt="cafe"></div>
-                <div class="container"><img id="cafe" src="../images/coffee-beans-2258839_1280.jpg" alt="coffee-beans"></div>
-                <div class="container"><img id="cafe" src="../images/coffee-shop-1209863_1280.jpg" alt="cafe"></div>
-                <div class="container"><img id="cafe" src="../images/street-cafe-4472312_1280.jpg" alt="street-cafe"></div>
+                <!-- Add images to <div class="fotorama"></div> -->
+                <div class="fotorama" data-width="800" data-height="600">
+                    <img src="../images/cafe-1872888_1920.jpg">
+                    <img src="../images/cafe-3537801_1280.jpg">
+                    <img src="../images/cafe-768771_1280.jpg">
+                    <img src="../images/coffee-beans-2258839_1280.jpg">
+                    <img src="../images/coffee-shop-1209863_1280.jpg">
+                    <img src="../images/street-cafe-4472312_1280.jpg">
+                </div>
 
             </div>
+            
             <footer>
                 <div class="container">
                 <h4>©WebCreation. Business Center Vitosha, "Cherni Vruh" 47 blv</h4>
