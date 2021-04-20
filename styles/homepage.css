@@ -1,93 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
-
-body{
-    background-color: #FFFFFF;
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap");
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
-body header{
-    margin: 0;
-    background-color:#f9bffd;
-    min-height: 4em;
-    width: 100%;
+body header {
+  margin: 0;
+  background-color: #f9bffd;
+  min-height: 4em;
+  width: 100%;
 }
 
-header h1{
-    margin: 0 auto;
-    color: #563a43;
-    padding-left: 1em;
-    /* font-family: Andale Mono, monospace; */
-    font-family: 'Fraunces', serif;
-    font-size: 4em;
-    font-weight: bold;
-    float: left;
+header h1 {
+  font-family: "Fraunces", serif;
+  color: #563a43;
+  margin: 0 auto;
+  padding-left: 1em;
+  font-size: 4em;
+  font-weight: bold;
+  float: left;
 }
 
-#mainMenu ul{
-    float: right;
-    list-style: none;
-    margin-right: 2em;
-}
-
-#mainMenu ul li{
-    float: left;
+#mainMenu ul {
+  float: right;
+  list-style: none;
+  margin-right: 2em;
 }
 
 #mainMenu ul li {
-    transition: 0.3s ease;
-    background: #f9bffd;
-    color: #ffffff;
-    border-top: 4px solid #f9bffd;
-    border-bottom: 4px solid #f9bffd;
-  }
+  float: left;
+}
+
+#mainMenu ul li {
+  transition: 0.3s ease;
+  background: #f9bffd;
+  color: #FFFFFF;
+  border-top: 4px solid #f9bffd;
+  border-bottom: 4px solid #f9bffd;
+}
 
 #mainMenu ul li:hover {
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
-  }
-
-#mainMenu li a{
-    /* font-family: Andale Mono, monospace; */
-    font-family: 'Fraunces', serif;
-    display: inline-block;
-    text-decoration: none;
-    color: #563a43;
-    min-width: 10em;
-    padding: 1em;
-    text-align: center;
-} 
-
-body footer{
-    min-height: 5em;
-    background-color:#f9bffd;
+  border-top: 4px solid #FFFFFF;
+  border-bottom: 4px solid #FFFFFF;
 }
 
-footer .container{
-    padding: 1em;
+#mainMenu li a {
+  font-family: "Fraunces", serif;
+  color: #563a43;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 10em;
+  padding: 1em;
+  text-align: center;
 }
 
-footer h4{
-    /* font-family: Andale Mono, monospace; */
-    font-family: 'Fraunces', serif;
-    font-size: 1em;
-    color:#563a43;
-    text-align: center;
+body footer {
+  min-height: 5em;
+  background-color: #f9bffd;
 }
 
-#main #headIMG{
-    width: 100%;
-    height: 40em;
-    display: block;
+footer .container {
+  padding: 1em;
 }
 
-body header::after, #main::after{
-    content: "";
-    display: block;
-    clear:both;
+footer h4 {
+  font-family: "Fraunces", serif;
+  color: #563a43;
+  font-size: 1em;
+  text-align: center;
 }
 
-#main{
-    min-height: 30em;
+#main #headIMG {
+  width: 100%;
+  height: 40em;
+  display: block;
 }
+
+body header::after, #main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#main {
+  min-height: 30em;
+}/*# sourceMappingURL=homepage.css.map */

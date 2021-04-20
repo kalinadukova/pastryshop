@@ -1,0 +1,30 @@
+@mixin combination($font1, $font2, $color1){
+    font-family: $font1, $font2;
+    color:$color1;
+}
+
+#main h3{
+    @include combination('Fraunces', serif, #563a43);
+    color:   #563a43;
+    text-align: center;
+}
+
+body p{
+    font-size: 1em;
+    @include combination('Fraunces', serif, #563a43);
+}
+
+body img{
+    float: right;
+    height: 30em;
+}
+
+#main h4{
+    font-size: 2em;
+    @include combination('Fraunces', serif, #563a43);
+    text-align: center;
+}
+
+#main{
+    padding: 3em;
+}
